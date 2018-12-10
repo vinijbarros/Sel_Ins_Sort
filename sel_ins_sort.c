@@ -124,7 +124,11 @@ int main()
 
     SelectionSort(&vetor[0], maximo);
 
-    printf("VETOR ORDENADO\n");
+    InsertionSort(&vetor[0], maximo);
+    printf("VETOR ORDENADO USANDO O INSERTION SORT\n");
+
+    SelectionSort(&vetor[0], maximo);
+    printf("VETOR ORDENADO USANDO O SELECTION SORT\n");
     printf("FIM!\n");
     return 0;
 }
