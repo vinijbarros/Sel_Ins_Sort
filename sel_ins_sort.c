@@ -120,9 +120,6 @@ int main()
     int vetor[maximo];     //Inicializa o vetor que sera salvo os elementos do arquivo
                         // e que sera usado na ordenação
 
-    InsertionSort(&vetor[0], maximo);
-
-    SelectionSort(&vetor[0], maximo);
 
     InsertionSort(&vetor[0], maximo);
     printf("VETOR ORDENADO USANDO O INSERTION SORT\n");
